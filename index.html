@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Alex Beal</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+
+
+		<style>
+		
+		</style>
+	</head>
+	<body>
+		<nav class="nav-container">
+			<div class="nav-logo">alexander beal</div>
+			<div class="nav-menu">
+				<i class="fas fa-bars"></i>
+			</div>
+		</nav>
+		 <!-- <div class="main-content center">
+			 <h1>Welcome to my full page slide down menu</h1>
+		</div> -->
+		<nav class="menu-container">
+			<div class="menu-content center">
+				<ul class="list-items">
+					<li>home</li>
+					<li>about</li>
+					<li>portfolio</li>
+					<li>contact</li>
+					<li><a href="https://www.linkedin.com/in/alexanderjbeal/" target="_blanl"><i class="fab fa-linkedin-in fa-xs"></i></a></li>
+				</ul>
+			</div>
+		</nav>
+				  
+		<div class="horizontal-container">
+
+			<div class="block block-one">
+				<!-- <h2 class="center">Alexander<br>Beal</h2> -->
+			</div>
+
+			<div class="block">
+				<h2 class="center">Item 2</h2>
+			</div>
+
+			<div class="block">
+				<h2 class="center">Item 3</h2>
+			</div>
+
+			<div class="block">
+				<h2 class="center">Item 4</h2>
+			</div>
+
+			<!-- <div class="block">
+				<h2>Item 5</h2>
+			</div>
+
+			<div class="block">
+				<h2>Item 6</h2>
+			</div>
+
+			<div class="block">
+				<h2>Item 7</h2>
+			</div>
+
+			<div class="block">
+				<h2>Item 8</h2>
+			</div> -->
+
+		</div>
+
+		<footer>
+			<div style="height: 500px"></div>
+		</footer>
+
+		<script src="assets/javascript/index.js"></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
+		<script src="assets/javascript/menu.js"></script>
+
+		<script>
+			var blocks = document.getElementsByClassName('block');
+			var container = document.getElementsByClassName('horizontal-container');
+			var hs = new HorizontalScroll.default({
+				blocks : blocks,
+				container: container,
+				isAnimated: true,
+				springEffect: 0.8
+			});
+		</script>
+	</body>
+</html>
+
+
+
+
+
+

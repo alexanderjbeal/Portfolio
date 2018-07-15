@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+  }
+
+  html, body{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  body {
+    /* background: #2b2769; */
+    text-align: center;
+    margin: 0;
+  }
+
+  h1 {
+    margin: 80px;
+  }
+  h2{
+    font-size: 80px;
+    font-weight: 900;
+  }
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+    /* Navigation */
+
+    .nav-container {
+      background: white;
+      position: relative;
+      /* height: 80px; */
+      z-index: 2;
+      border-bottom: 1px solid grey;
+    }
+    .nav-logo {
+      position: absolute;
+      color: black;
+      line-height: 80px;
+      left: 30px;
+      text-transform: uppercase;
+      font-weight: 300;
+      font-size: 10px;
+      letter-spacing: 3px;
+    }
+    .nav-menu{
+      z-index: 5;
+      position: absolute;
+      line-height: 80px;
+      right: 30px;
+      cursor: pointer;
+    }
+    .nav-menu i {
+      color: black;
+    }
+
+    .menu-container {
+      z-index:1;
+      position:fixed;
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(323deg, #009cff, #005f9c, #013e66);
+     }
+    li {
+      list-style-type: none;
+      font-size: 25px;
+      margin-bottom: 20px;
+      font-weight: 900;
+    }
+    li:nth-last-child() {
+      margin-bottom: 0px;
+    }
+    li i {
+      list-style-type: none;
+      font-weight: 100;
+      color: white;
+      /* color: #013e66; */
+      padding: 10px;
+      border: 1px solid white;
+      border-radius: 140px;
+    }
+    li i:hover {
+      color: white;
+    }
+
+  /* Horizontal Scroll */
+
+  .horizontal-container{
+    /* margin-top: 50px; */
+    width: 100%;
+    position: relative;
+  }
+  .block{
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    margin: 0px;
+    background: white;
+    border-left: 1px solid grey;
+  }
+  .block-one {
+    background: url('../images/subtle_grunge.png')
+  }
+  .block h2 {
+    color: black;
+    font-weight: 900;
+  }
+  
