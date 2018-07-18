@@ -65,13 +65,15 @@
       position:fixed;
       height: 100%;
       width: 100%;
-      background: linear-gradient(323deg, #009cff, #005f9c, #013e66);
+      background: white;
+      /* background: linear-gradient(323deg, #009cff, #005f9c, #013e66); */
      }
     li {
       list-style-type: none;
       font-size: 25px;
       margin-bottom: 20px;
       font-weight: 900;
+      color: black;
     }
     li:nth-last-child() {
       margin-bottom: 0px;
@@ -79,10 +81,10 @@
     li i {
       list-style-type: none;
       font-weight: 100;
-      color: white;
+      color: black;
       /* color: #013e66; */
       padding: 10px;
-      border: 1px solid white;
+      border: 1px solid black;
       border-radius: 140px;
     }
     li i:hover {
@@ -98,14 +100,16 @@
   }
   .block{
     position: relative;
-    width: 1000px;
-    height: 600px;
+    width: 1100px;
+    height: 700px;
     margin: 0px;
     background: white;
     border-left: 1px solid grey;
   }
   .block-one {
-    background: url('../images/subtle_grunge.png')
+    background: url('../images/ab.jpg');
+    background-position: center;
+    background-size: cover;
   }
   .block h2 {
     color: black;
