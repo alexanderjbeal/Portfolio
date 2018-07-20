@@ -115,4 +115,23 @@
     color: black;
     font-weight: 900;
   }
+
+  @media only screen and (max-width: 800px) {
+
+    .block{
+      position: relative;
+      width: 500px;
+      height: 700px;
+      margin: 0px;
+      background: white;
+      border-left: 1px solid grey;
+    }
+    .block-one {
+      background: url('../images/ab.jpg');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+  }
   
