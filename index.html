@@ -40,60 +40,47 @@
 				</ul>
 			</div>
 		</nav>
-				  
-		<div class="horizontal-container">
+		
+		<section class="intro-container">
+			<div id="intro-layer-first-name"></div>
+			<div id="intro-layer-body-double"></div>
+			<div id="intro-layer-tree"></div>
+			<div id="intro-layer-last-name"></div>
+		</section>
 
-			<div class="block block-one">
-				<!-- <h2 class="center">Alexander<br>Beal</h2> -->
-			</div>
-
-			<div class="block">
-				<h2 class="center">Item 2</h2>
-			</div>
-
-			<div class="block">
-				<h2 class="center">Item 3</h2>
-			</div>
-
-			<div class="block">
-				<h2 class="center">Item 4</h2>
-			</div>
-
-			<!-- <div class="block">
-				<h2>Item 5</h2>
-			</div>
-
-			<div class="block">
-				<h2>Item 6</h2>
-			</div>
-
-			<div class="block">
-				<h2>Item 7</h2>
-			</div>
-
-			<div class="block">
-				<h2>Item 8</h2>
-			</div> -->
-
-		</div>
-
-		<footer>
-			<div style="height: 500px"></div>
-		</footer>
-
-		<script src="assets/javascript/index.js"></script>
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/plugins/CSSRulePlugin.min.js'></script>
 		<script src="assets/javascript/menu.js"></script>
 
 		<script>
-			var blocks = $('.block');
-			var container = $('.horizontal-container');
-			var hs = new HorizontalScroll.default({
-				blocks: blocks,
-				container: container,
-				isAnimated: true,
-				springEffect: 0.8
+			TweenMax.to("#intro-layer-first-name", 2, {
+				bezier: {
+					type: "thru",
+					values: [
+						{ left: '0%', top: '0%' }
+					],
+					autoRotate: false,
+				}, 
+				// x:0,
+				ease:Bounce.easeOut,
+				yoyoEase:Power2.easeOut,
+				repeat:0,
+				repeatDelay:0.
+			});
+			TweenMax.to("#intro-layer-last-name", 2, {
+				bezier: {
+					type: "thru",
+					values: [
+						{ left: '0%', top: '0%' }
+					],
+					autoRotate: false,
+				}, 
+				// x:0,
+				ease:Bounce.easeOut,
+				yoyoEase:Power2.easeOut,
+				repeat:0,
+				repeatDelay:0.
 			});
 		</script>
 	</body>
