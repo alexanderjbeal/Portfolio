@@ -82,6 +82,21 @@
 				repeat:0,
 				repeatDelay:0.
 			});
+			TweenMax.to("#intro-layer-tree", 2, {
+				bezier: {
+					type: "thru",
+					values: [
+						{ left: '0%', top: '0%' }
+					],
+					autoRotate: false,
+				}, 
+				// x:0,
+				ease:RoughEase.easeOut,
+				// yoyoEase:Power2.easeOut,
+				repeat:0,
+				repeatDelay:0.,
+				delay:1
+			});
 		</script>
 	</body>
 </html>
