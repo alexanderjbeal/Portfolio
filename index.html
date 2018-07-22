@@ -54,48 +54,50 @@
 		<script src="assets/javascript/menu.js"></script>
 
 		<script>
-			TweenMax.to("#intro-layer-first-name", 2, {
-				bezier: {
-					type: "thru",
-					values: [
-						{ left: '0%', top: '0%' }
-					],
-					autoRotate: false,
-				}, 
-				// x:0,
-				ease:Bounce.easeOut,
-				yoyoEase:Power2.easeOut,
-				repeat:0,
-				repeatDelay:0.
-			});
-			TweenMax.to("#intro-layer-last-name", 2, {
-				bezier: {
-					type: "thru",
-					values: [
-						{ left: '0%', top: '0%' }
-					],
-					autoRotate: false,
-				}, 
-				// x:0,
-				ease:Bounce.easeOut,
-				yoyoEase:Power2.easeOut,
-				repeat:0,
-				repeatDelay:0.
-			});
-			TweenMax.to("#intro-layer-tree", 2, {
-				bezier: {
-					type: "thru",
-					values: [
-						{ left: '0%', top: '0%' }
-					],
-					autoRotate: false,
-				}, 
-				// x:0,
-				ease:RoughEase.easeOut,
-				// yoyoEase:Power2.easeOut,
-				repeat:0,
-				repeatDelay:0.,
-				delay:1
+			$(document).ready(function() {
+				TweenMax.to("#intro-layer-first-name", 2, {
+					bezier: {
+						type: "thru",
+						values: [
+							{ left: '0%', top: '0%' }
+						],
+						autoRotate: false,
+					}, 
+					// x:0,
+					ease:Bounce.easeOut,
+					yoyoEase:Power2.easeOut,
+					repeat:0,
+					repeatDelay:0.
+				});
+				TweenMax.to("#intro-layer-last-name", 2, {
+					bezier: {
+						type: "thru",
+						values: [
+							{ left: '0%', top: '0%' }
+						],
+						autoRotate: false,
+					}, 
+					// x:0,
+					ease:Bounce.easeOut,
+					yoyoEase:Power2.easeOut,
+					repeat:0,
+					repeatDelay:0.
+				});
+				TweenMax.to("#intro-layer-tree", 2, {
+					bezier: {
+						type: "thru",
+						values: [
+							{ left: '0%', top: '0%' }
+						],
+						autoRotate: false,
+					}, 
+					// x:0,
+					ease:RoughEase.easeOut,
+					// yoyoEase:Power2.easeOut,
+					repeat:0,
+					repeatDelay:0.,
+					delay:1
+				});
 			});
 		</script>
 	</body>
