@@ -26,3 +26,10 @@ menuIcon.click(function () {
   menuToggle.reversed() ? menuToggle.restart() : menuToggle.reverse();
     // $('.nav-menu i').css('color','white');
 });
+
+listItems.click(function () {
+  menuToggle.reversed() ? menuToggle.restart() : menuToggle.reverse();
+  $(document).ready(function() {
+    
+  })
+});

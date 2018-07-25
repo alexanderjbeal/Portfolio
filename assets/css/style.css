@@ -66,15 +66,17 @@
       height: 100%;
       width: 100%;
       background: white;
-      opacity: 0.95;
+      opacity: 1;
       /* background: linear-gradient(323deg, #009cff, #005f9c, #013e66); */
      }
+ 
     li {
       list-style-type: none;
-      font-size: 25px;
-      margin-bottom: 20px;
+      font-size: 60px;
+      margin-bottom: 10px;
       font-weight: 900;
       color: black;
+      text-align: left;
     }
     li:nth-last-child() {
       margin-bottom: 0px;
@@ -85,11 +87,17 @@
       color: black;
       /* color: #013e66; */
       padding: 10px;
+      margin: 0 5px 0 5px;
       border: 1px solid black;
       border-radius: 140px;
     }
     li i:hover {
       color: white;
+      background: black;
+    }
+    .social-icons {
+      font-size: 20px;
+      padding-top: 20px;
     }
 
 
